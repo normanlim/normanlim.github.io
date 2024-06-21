@@ -136,12 +136,12 @@ input, select, textarea {
 		}
 
 	a {
+		color: blue; /* Change this to the desired color */
 		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		border-bottom: dotted 1px;
-		color: inherit;
 		text-decoration: none;
 	}
 
@@ -4011,3 +4011,13 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	/* Custom Stuff */
+	#three a {
+		color: lightblue; /* Change this to the desired color */
+	}
+	
+	#three a:hover {
+		color: darkblue; /* Optional: Change this to the desired hover color */
+	}
+	
